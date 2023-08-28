@@ -1,24 +1,17 @@
 {
-  "name": "blank-cloud-sandbox-template",
-  "version": "1.0.0",
-  "description": "The official Blank Cloud Sandbox Template by the CodeSandbox team",
-  "main": "index.html",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@codesandbox/nodebox": "^0.1.8"
   }
 }
